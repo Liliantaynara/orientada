@@ -4,3 +4,5 @@ cinema = ingresso(20)
 cinema.imprimevalor()
 cinemavip = ingressovip (20)
 cinemavip.imprimeValor ()
+
+
