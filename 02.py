@@ -1,0 +1,1 @@
+# o saldo da conta mais com o saldo da credito do banco, um vamor tota

@@ -1,20 +1,52 @@
-class conta () :
+class animal():
+    def __init__(self,nome,cor):
+        self.nome= nome
+        self.cor= cor
 
-    def __init__ (self ,num,saldo,nome, tipo, limite):
+    def comer(self):
+        print(f"o{self.nome} foi comer...")
 
-        self.num = num
-        self.saldo = saldo
-        self.nome = nome
-        self.tipo = tipo
-        self.status = False
-        self.limite = limite
+class gato(animal):
+    def __init__(self,nome,cor):
+        super().__init__(nome,cor)
 
-    def status (self):
-        if self.status == True:
-            print("Esta ativo!")
+    def miar(self):
+        print (f"{self.nome} foi miando...")
 
-        else:
-            print ("esta inativo!")
+class vaca(animal):
+    def __init__(self,nome,cor):
+        print(f"{self.vaca} foi comer capim")
+
+class coelho(animal):
+    def __init__(self,nome,cor):
+        print("comendo")
+class cachorro(animal):
+    def __init__(self,nome,cor):
+        print(f"comendo")
+
+
+class ingresso:
+     def __init__(self, preco):
+
+        self.preco = preco
+
+     def imprimeValor(self):
+        print(f"custa {self.preco}")
+
+class ingressovip:
+    def __init__(self,nome, preco):
+        super
+
+        preco = ingresso
+
+    print(f"{preco} do ingresso normal no {ingressovip} fica por {v}")
+
+class forma():
+    
+
+
+
+
 
 
 

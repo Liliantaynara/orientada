@@ -1,5 +1,6 @@
-from biblioteca import conta
+from biblioteca import ingressovip, ingresso
 
-banco2 = conta (1,1,1,1)
-
-banco2.status()
+cinema = ingresso(20)
+cinema.imprimevalor()
+cinemavip = ingressovip (20)
+cinemavip.imprimeValor ()
